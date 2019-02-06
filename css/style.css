@@ -1,24 +1,146 @@
-body {
-    font-family: roboto;
-    font-weight: 500;
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+body, p, h2 {
+    margin: 0;
+    padding: 0;
 }
 
-section.block {
+body {
+    font-family: roboto;
+}
+
+section.wrapper {
     display: flex;
     justify-content: space-around;
 }
 
-div {
-    border: 1px solid black;
-    padding: 30px;
+.phone-wrapper {
+    padding: 70px 30px 120px;
+    width: 370px;
+    height: 730px;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 40px 40px 40px 40px;
+    background-color: #f2f2f2;
+}
+.phone-wrapper:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+.phone-wrapper:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 120px;
+    width: 100%;
+    z-index: 1;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.phone-wrapper.phone-pink:before,
+.phone-wrapper.phone-pink:after {
+    background-color: #eab4c2;
+}
+.phone-wrapper.phone-green:before,
+.phone-wrapper.phone-green:after {
+    background-color: #469781;
+}
+.phone-wrapper.phone-yellow:before,
+.phone-wrapper.phone-yellow:after {
+    background-color: #efd979;
+}
+.phone-wrapper.phone-blue:before,
+.phone-wrapper.phone-blue:after {
+    background-color: #a3dfe0;
 }
 
-p.number {
+.phone-wrapper .number {
+    font-size: 120px;
+    line-height: 120px;
+    z-index: 1;
     font-weight: 100;
-    font-size: 80px;
-    margin: 0;
+    color: #323232;
+    margin-bottom: 15px;
+}
+.phone-wrapper .subtitle {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    color: #010101;
+    margin-bottom: 15px;
+}
+.phone-wrapper .subtitle abbr {
+    text-decoration: none;
+}
+.phone-wrapper h2 {
+    font-size: 44px;
+    line-height: 50px;
+    font-weight: 300;
+    margin-right: 30px;
+    padding-bottom: 20px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.phone-wrapper h2 span {
+    background: linear-gradient(0.25turn, #eab4c2, #edda7b);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 0 2px;
+    display: inline-block;
+}
+.phone-wrapper h2 span:first-of-type {
+    margin-left: 15px;
+}
+.phone-wrapper h2:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 65px;
+    background: linear-gradient(0.25turn, #eab4c2, #edda7b);
+}
+.phone-wrapper .desc {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    color: #010101;
+    margin-bottom: 15px;
 }
 
+.phone-wrapper .desc span {
+    display: block;
+}
+.phone-wrapper .author {
+    color: #010101;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 40px;
+    position: relative;
+}
+.phone-wrapper .author:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-image: url(../images/cube_icon.jpg);
+    transform: translateY(-50%);
+}
 p:nth-child(3) {
     font-weight: 300;
     font-size: 40px;
@@ -27,5 +149,5 @@ p:nth-child(3) {
 }
 
 b {
-    font-weight: 500;
+    font-weight: 400;
 }
