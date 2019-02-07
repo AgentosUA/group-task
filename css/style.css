@@ -39,6 +39,15 @@ section.wrapper {
     justify-content: center;
     border-radius: 40px 40px 40px 40px;
     transform: rotateX(54deg) rotateZ(-46deg);
+    top: 0px;
+    left: 0px;
+    transition-property: all;
+    transition-duration: .25s;
+}
+
+.phone-wrapper:hover {
+    top: -150px;
+    left: 0px;
 }
 
 /*<<<<<<< Updated upstream*/
@@ -66,35 +75,35 @@ section.wrapper {
     border-bottom-left-radius: 40px;
 }
 
-.phone-wrapper.phone-pink:before {
+.phone-pink:before {
     background-color: #ecacbd;
 }
 
-.phone-wrapper.phone-pink:after {
+.phone-pink:after {
     background-color: #f1d7e0;
 }
 
-.phone-wrapper.phone-green:before {
+.phone-green:before {
     background-color: #7cd1be;
 }
 
-.phone-wrapper.phone-green:after {
+.phone-green:after {
     background-color: #90dfd4;
 }
 
-.phone-wrapper.phone-yellow:before {
+.phone-yellow:before {
     background-color: #eed16b;
 }
 
-.phone-wrapper.phone-yellow:after {
+.phone-yellow:after {
     background-color: #f3e797;
 }
 
-.phone-wrapper.phone-blue:before {
+.phone-blue:before {
     background-color: #78c9cd;
 }
 
-.phone-wrapper.phone-blue:after {
+.phone-blue:after {
     background-color: #aee4e6;
 }
 
@@ -357,15 +366,4 @@ b {
     margin: 3px 25px;
     background: #3535354f;
     clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
-}
-
-.phone-wrapper {
-    top: 0px;
-    left: 0px;
-    transition-property: all;
-    transition-duration: .25s;
-}
-.phone-wrapper:hover {
-    top: -150px;
-    left: 0px;
 }
