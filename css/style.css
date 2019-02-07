@@ -48,23 +48,88 @@ section.wrapper {
     border-bottom-right-radius: 40px;
     border-bottom-left-radius: 40px;
 }
-.phone-wrapper.phone-pink:before,
-.phone-wrapper.phone-pink:after {
-    background-color: #eab4c2;
-}
-.phone-wrapper.phone-green:before,
-.phone-wrapper.phone-green:after {
-    background-color: #469781;
-}
-.phone-wrapper.phone-yellow:before,
-.phone-wrapper.phone-yellow:after {
-    background-color: #efd979;
-}
-.phone-wrapper.phone-blue:before,
-.phone-wrapper.phone-blue:after {
-    background-color: #a3dfe0;
+.phone-wrapper.phone-pink:before{
+	background-color: #ecacbd;
 }
 
+.phone-wrapper.phone-pink:after {
+     background-color: #f1d7e0;
+}
+.phone-wrapper.phone-green:before{
+	background-color: #7cd1be;
+}
+
+.phone-wrapper.phone-green:after {
+    background-color: #90dfd4;
+}
+.phone-wrapper.phone-yellow:before{
+	background-color: #eed16b;
+}
+
+.phone-wrapper.phone-yellow:after {
+    background-color: #f3e797;
+}
+.phone-wrapper.phone-blue:before{
+    background-color: #78c9cd;
+}
+.phone-wrapper.phone-blue:after {
+	background-color: #aee4e6;
+}
+
+.decoration-top{
+	position: absolute;
+	top: 5%;
+	left: 50%; 
+	transform: translateX(-50%);
+    z-index: 5;
+	width: 50px;
+	height: 6px;
+	border-radius: 5px;
+}
+
+.decoration-bottom{
+	position: absolute;
+	bottom: 5%;
+	left: 50%; 
+	transform: translateX(-50%);
+    z-index: 5;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+}
+
+.phone-pink .decoration-top{
+	background-color: #e587a1;
+}
+
+.phone-pink .decoration-bottom {
+	background-color: #edbdcd;
+}
+
+.phone-green .decoration-top{
+	background-color: #27866d;
+}
+
+.phone-green .decoration-bottom{
+	background-color: #55d9c8;
+}
+
+.phone-yellow .decoration-top{
+	background-color: #e1bd31;
+}
+
+.phone-yellow .decoration-bottom{
+	background-color: #eedc50;
+}
+
+.phone-blue .decoration-top{
+	background-color: #33b0af;
+}
+
+.phone-blue .decoration-bottom{
+	background-color: #5cd7d6;
+}
+	
 .phone-wrapper .number {
     font-size: 120px;
     line-height: 120px;
