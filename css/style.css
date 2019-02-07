@@ -4,8 +4,8 @@ body, p, h2 {
 }
 
 body {
-   font-family: 'Roboto', sans-serif;
- }
+  font-family: 'Roboto', sans-serif;
+}
 
 section.wrapper {
     display: flex;
