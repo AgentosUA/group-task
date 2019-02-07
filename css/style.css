@@ -9,7 +9,18 @@ body {
 
 section.wrapper {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    width: 50%;
+}
+
+.phone-yellow {
+    order: 4;
+}
+
+.phone-blue {
+    order: 3;
 }
 
 .phone-wrapper {
@@ -214,4 +225,3 @@ p:nth-child(3) {
 b {
     font-weight: 400;
 }
-
