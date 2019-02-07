@@ -18,6 +18,8 @@ section.wrapper {
     justify-content: space-around;
     flex-wrap: wrap-reverse;
     width: 50%;
+    position: relative;
+    min-height: 100vh;
 }
 
 .phone-yellow {
@@ -39,15 +41,6 @@ section.wrapper {
     justify-content: center;
     border-radius: 40px 40px 40px 40px;
     transform: rotateX(54deg) rotateZ(-46deg);
-    top: 0px;
-    left: 0px;
-    transition-property: all;
-    transition-duration: .25s;
-}
-
-.phone-wrapper:hover {
-    top: -150px;
-    left: 0px;
 }
 
 /*<<<<<<< Updated upstream*/
@@ -75,35 +68,35 @@ section.wrapper {
     border-bottom-left-radius: 40px;
 }
 
-.phone-pink:before {
+.phone-wrapper.phone-pink:before {
     background-color: #ecacbd;
 }
 
-.phone-pink:after {
+.phone-wrapper.phone-pink:after {
     background-color: #f1d7e0;
 }
 
-.phone-green:before {
+.phone-wrapper.phone-green:before {
     background-color: #7cd1be;
 }
 
-.phone-green:after {
+.phone-wrapper.phone-green:after {
     background-color: #90dfd4;
 }
 
-.phone-yellow:before {
+.phone-wrapper.phone-yellow:before {
     background-color: #eed16b;
 }
 
-.phone-yellow:after {
+.phone-wrapper.phone-yellow:after {
     background-color: #f3e797;
 }
 
-.phone-blue:before {
+.phone-wrapper.phone-blue:before {
     background-color: #78c9cd;
 }
 
-.phone-blue:after {
+.phone-wrapper.phone-blue:after {
     background-color: #aee4e6;
 }
 
@@ -366,4 +359,41 @@ b {
     margin: 3px 25px;
     background: #3535354f;
     clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+}
+
+.phone-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition-property: all;
+    transition-duration: .25s;
+}
+.phone-wrapper:nth-child(1) {
+    /*top: 35%;
+    left: -80px;*/
+    top: 260px;
+    left: -120px;
+}
+.phone-wrapper:nth-child(2) {
+    /*top: 33%;
+    left: 68%;*/
+    top: 260px;
+    left: 460px;
+}
+.phone-wrapper:nth-child(3) {
+    /*left: 58%;
+    top: -22%;*/
+    left: 400px;
+    top: -110px;
+
+}
+.phone-wrapper:nth-child(4) {
+    /*left: -100px;
+    top: -16%;*/
+    left: -115px;
+    top: -70px;
+}
+.phone-wrapper:hover {
+    top: -150px;
+    left: 0px;
 }
