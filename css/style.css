@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
-
 body, p, h2 {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: roboto;
-}
+   font-family: 'Roboto', sans-serif;
+ }
 
 section.wrapper {
     display: flex;
@@ -216,3 +214,4 @@ p:nth-child(3) {
 b {
     font-weight: 400;
 }
+
