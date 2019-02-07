@@ -3,6 +3,11 @@ body, p, h2 {
     padding: 0;
 }
 
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
