@@ -369,21 +369,22 @@ b {
     transition-duration: .25s;
 }
 .phone-wrapper:nth-child(1) {
-    top: 359px;
-    left: -400px;
+    top: 263px;
+    left: -423px;
 }
 .phone-wrapper:nth-child(2) {
-    top: 346px;
-    left: 130px;
+    top: 256px;
+    left: 113px;
 }
 .phone-wrapper:nth-child(3) {
-    left: 119px;
-    top: 31px;
+    left: 105px;
+    top: -60px;
 
 }
 .phone-wrapper:nth-child(4) {
-    left: -427px;
-    top: 26px;
+    left: -447px;
+    top: -65px;
+
 }
 .phone-wrapper:hover {
     top: -150px;
