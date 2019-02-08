@@ -362,24 +362,41 @@ b {
     top: 263px;
     left: -423px;
 }
+.phone-wrapper:nth-child(1):hover {
+    top: 203px;
+    left: -380px;
+    box-shadow: -120px 125px 250px #AAABAF;
+    z-index: 1;
+}
 .phone-wrapper:nth-child(2) {
     top: 256px;
     left: 113px;
+}
+.phone-wrapper:nth-child(2):hover {
+    top: 214px;
+    left: 190px;
+    box-shadow: -120px 125px 250px #AAABAF;
+    z-index: 2;
 }
 .phone-wrapper:nth-child(3) {
     left: 105px;
     top: -60px;
 
 }
+.phone-wrapper:nth-child(3):hover {
+    top: -100px;
+    left: 168px;
+    box-shadow: -120px 125px 250px #AAABAF;
+}
+
 .phone-wrapper:nth-child(4) {
     left: -447px;
     top: -65px;
 
 }
-.phone-wrapper:hover {
-    top: -150px;
-    left: 0;
-    box-shadow: -220px 225px 250px  #AAABAF;
-
+.phone-wrapper:nth-child(4):hover {
+    top: -99px;
+    left: -368px;
+    box-shadow: -120px 125px 250px #AAABAF;
 }
 
