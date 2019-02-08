@@ -4,7 +4,6 @@
 body, p, h2 {
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 .main-wrapper {
@@ -208,9 +207,9 @@ section.wrapper {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 3px;
+    height: 1px;
     width: 65px;
-    background: linear-gradient(0.25turn, #eab4c2, #edda7b);
+    background: linear-gradient(0.25turn, #f99f4e, #fc7470, #ff558d);
 }
 
 .phone-wrapper .desc {
