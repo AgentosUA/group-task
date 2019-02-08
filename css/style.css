@@ -9,6 +9,10 @@ body, p, h2 {
   padding: 0;
 }
 
+b {
+  font-weight: 400;
+}
+
 .main-wrapper {
   display: flex;
   justify-content: center;
@@ -89,7 +93,7 @@ section.wrapper {
   box-shadow: -120px 80px 150px #AAABAF;
 }
 
-:hover {
+.phone-wrapper:hover {
   cursor: pointer;
 }
 
@@ -284,17 +288,6 @@ section.wrapper {
   background-size: cover;
   background-image: url(../images/cube_icon.png);
   transform: translateY(-50%);
-}
-
-p:nth-child(3) {
-  font-weight: 300;
-  font-size: 40px;
-  margin: 0;
-  padding-right: 10%;
-}
-
-b {
-  font-weight: 400;
 }
 
 .side-top {
