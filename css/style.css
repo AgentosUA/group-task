@@ -4,6 +4,7 @@
 body, p, h2 {
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 .main-wrapper {
@@ -13,6 +14,7 @@ body, p, h2 {
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #EBECF0;
 }
 
 section.wrapper {
@@ -32,7 +34,7 @@ section.wrapper {
 }
 
 .phone-wrapper {
-    padding: 70px 30px 120px;
+    padding: 70px 55px 120px;
     width: 330px;
     height: 730px;
     position: relative;
@@ -46,7 +48,6 @@ section.wrapper {
 
 }
 
-/*<<<<<<< Updated upstream*/
 .phone-wrapper:before {
     content: '';
     position: absolute;
@@ -128,9 +129,6 @@ section.wrapper {
 .phone-pink .top-speaker {
     background-color: #e587a1;
 }
-
-/*=======*/
-/*>>>>>>> Stashed changes*/
 
 .phone-pink .home-key {
     background-color: #edbdcd;
@@ -366,8 +364,8 @@ b {
 
 .phone-wrapper {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     transition-property: all;
     transition-duration: .25s;
 }
@@ -390,7 +388,7 @@ b {
 }
 .phone-wrapper:hover {
     top: -150px;
-    left: 0px;
+    left: 0;
     box-shadow: -220px 225px 250px  #AAABAF;
 
 }
