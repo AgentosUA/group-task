@@ -47,25 +47,25 @@ section.wrapper {
 .phone-pink {
   top: 263px;
   left: -423px;
+  z-index: 1;
 }
 
 .phone-pink:hover {
   top: 203px;
   left: -380px;
   box-shadow: -120px 80px 150px #AAABAF;
-  z-index: 1;
 }
 
 .phone-green {
   top: 256px;
   left: 113px;
+  z-index: 2;
 }
 
 .phone-green:hover {
   top: 214px;
   left: 190px;
   box-shadow: -120px 80px 150px #AAABAF;
-  z-index: 2;
 }
 
 .phone-yellow {
