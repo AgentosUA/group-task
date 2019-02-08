@@ -192,6 +192,7 @@ section.wrapper {
 .dots {
   background: linear-gradient(0.25turn,#f99f4e, #ff558d); 
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-left: 7px;
 }
